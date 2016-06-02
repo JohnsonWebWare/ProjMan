@@ -1,6 +1,5 @@
 User
-	userId
-	userName
-	email
-	password
-
+	UserId
+	UserName
+	UserEmail
+	UserPassword

@@ -1,0 +1,12 @@
+Issue
+	IssueId
+	IssueSummary
+	IssueDetails
+	IssueType
+	IssueStatus
+	EpicId
+	ProjectId
+	IssueReporter
+	IssueAssignee
+	IssuePoints
+	IssueParent

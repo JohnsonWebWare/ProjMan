@@ -1,0 +1,6 @@
+Epic
+	EpicId
+	EpicName
+	EpicDescription
+	EpicColor
+	EpicProject

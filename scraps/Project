@@ -1,6 +1,7 @@
 Project
-	id
-	name
-	description
-	key
+	ProjectId
+	ProjectName
+	ProjectDescription
+	ProjectKey
+	ProjectWorkflow
 	

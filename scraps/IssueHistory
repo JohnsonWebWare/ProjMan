@@ -1,0 +1,8 @@
+IssueHistory
+	IssueHistoryId
+	IssueId
+	IssuePriorStatus
+	IssueNewStatus
+	IssueHistoryTime
+	IssueHistoryBy
+	IssueHistoryComment
