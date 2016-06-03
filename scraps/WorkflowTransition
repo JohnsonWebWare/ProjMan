@@ -1,0 +1,5 @@
+WorkflowTransition
+	WorkflowTransitionId
+	WorkflowTransitionName
+	TransitionStart
+	TransitionEnd

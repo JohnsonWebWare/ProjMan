@@ -1,8 +1,8 @@
 IssueHistory
 	IssueHistoryId
 	IssueId
-	IssuePriorStatus
-	IssueNewStatus
+	ActionId
+	TransitionId
 	IssueHistoryTime
 	IssueHistoryBy
 	IssueHistoryComment
