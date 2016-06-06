@@ -59,8 +59,8 @@ CREATE TABLE `Issue` (
   `ProjectId` int(10) unsigned NOT NULL,
   `IssueReporter` int(10) unsigned NOT NULL,
   `IssueAssignee` int(10) unsigned DEFAULT '0',
-  `IssuePoints` int(10) unsigned DEFAULT NULL,
-  `IssueParent` int(10) unsigned DEFAULT '0',
+  `IssuePoints` int(10) unsigned DEFAULT '0',
+  `IssueParent` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`IssueId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -241,8 +241,8 @@ DROP TABLE IF EXISTS `Workflow`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `Workflow` (
   `WorkflowID` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `WorkflowName` varchar(45) NOT NULL,
-  `WorkflowDescription` varchar(200) DEFAULT NULL,
+  `WorkflowName` varchar(50) NOT NULL,
+  `WorkflowDescription` varchar(250) DEFAULT NULL,
   PRIMARY KEY (`WorkflowID`),
   UNIQUE KEY `WorkflowName_UNIQUE` (`WorkflowName`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
